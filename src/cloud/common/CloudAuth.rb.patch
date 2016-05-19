@@ -1,0 +1,7 @@
+diff -rpu1 old/CloudAuth.rb new/CloudAuth.rb
+--- old/CloudAuth.rb	2016-05-07 23:46:38.082370852 +0200
++++ new/CloudAuth.rb	2016-05-07 23:33:57.411407853 +0200
+@@ -26,2 +26,3 @@ class CloudAuth
+         "remote"     => 'RemoteCloudAuth',
++        "facebook"   => 'FacebookCloudAuth',
+         "opennebula" => 'OpenNebulaCloudAuth',

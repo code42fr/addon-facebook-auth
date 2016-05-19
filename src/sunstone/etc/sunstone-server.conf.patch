@@ -1,0 +1,48 @@
+diff -rpu1 old/sunstone-server.conf new/sunstone-server.conf
+--- old/sunstone-server.conf	2016-05-07 12:46:16.000000000 +0200
++++ new/sunstone-server.conf	2016-05-08 00:18:18.910380113 +0200
+@@ -72,3 +72,3 @@
+ #
+-:auth: opennebula
++:auth: facebook
+ 
+@@ -86,2 +86,35 @@
+ ################################################################################
++# Facebook authentication
++################################################################################
++
++# Facebook app. ID and secret
++# generated on Facebook for Developers pages
++:facebook_app_id: 0000000000000000
++:facebook_app_secret: 00000000000000000000000000000000
++
++# Facebook locales mapping on SunStone locales
++:facebook_locales:
++    :ca_ES: ca
++    :cs_CZ:
++    :da_DK: da
++    :de_DE: de
++    :el_GR:
++    :en_US:
++    :es_ES:
++    :es_LA: es_ES
++    :fa_IR:
++    :fr_FR:
++    :it_IT:
++    :ja_JP: ja
++    :lt_LT: 
++    :nl_NL:
++    :pl_PL: pl
++    :pt_PT:
++    :pt_BR:
++    :ru_RU:
++    :sk_SK:
++    :zh_TW:
++    :zh_CN:
++
++################################################################################
+ # UI Settings
+@@ -160,2 +193,3 @@
+ :routes:
++    - facebook
+     - oneflow

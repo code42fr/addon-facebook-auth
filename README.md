@@ -1,5 +1,5 @@
-# OpenNebula Facebook authentication plugin
+# OpenNebula Sunstone Facebook authentication
 
 ***
 
-Vlastimil Holer <vlastimil.holer@gmail.com>
+Vlastimil Holer, <vlastimil.holer@gmail.com>
